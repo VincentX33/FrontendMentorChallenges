@@ -1,0 +1,157 @@
+body {
+    font-size: 18px;
+    font-family: 'Outfit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    margin:0%;
+}
+h1, h2 {
+    display: none;
+}
+
+.icon {
+    width:20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.OuterContainer {
+    width: 98.5vw;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container {
+    width: 335px;
+    height: 550px;
+    border-radius: 7%;
+    background-color: hsl(216, 50%, 16%);
+}   
+
+.nftpic {
+    width: 270px;
+    height:250px;
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    border-radius: 3%;
+}
+
+.innerFlex {
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    margin:auto;
+}
+
+.innerFlex2 {
+    display:flex;
+    align-items: center;
+    width:130px;
+    justify-content: center;
+}
+
+.innerFlex3 {
+    display:flex;
+    align-items: center;
+    width:150px;
+    justify-content: space-around;
+}
+
+h3{
+    color:hsl(0, 0%, 100%);
+    margin-top: 40px;
+}
+
+p {
+    width: 250px;
+    color: hsl(215, 51%, 70%);
+}
+
+.attr {
+    width: 300px;
+}
+
+.marginlefter {
+    margin-left:30px;
+}
+
+.lineWidth {
+    width: 250px;
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+.face {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border:1px solid white;
+    border-radius: 50%;
+}
+
+.cyan {
+    color:hsl(178, 100%, 50%);
+}
+
+b:hover, h3:hover {
+    color:cyan;
+    cursor: pointer;
+}
+.eye {
+    display: inline-block;
+}
+
+.nftpic:hover {
+    background-image: url("./images/image-equilibrium.jpg");
+    background-color: cyan;
+}
+
+.nftlink {
+    width: 220px;
+    height:250px;
+    margin:auto;
+    display:inline-block;
+    position: relative;
+    border-radius: 3%;
+    padding: 32px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nftlink:hover::after{
+    content: url("./images/icon-view.svg");
+    width: 270px;
+    height: 250px;
+    border-radius: 3%;
+    position: absolute;
+    top: 45px;
+    left: 32px;
+    right: 0;
+    bottom: 5px;
+    display: grid;
+    margin: auto;
+    place-items: center;
+    background-color: rgba(0, 255, 247, 0.5);
+}
+
+.footer {
+    display: block;
+    margin-left:550px;
+    font-family:Lucida Sans;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.icon-lg {
+    width:30px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 50%;
+    border : 2px double blue;
+    padding:10px;
+}

@@ -1,0 +1,40 @@
+line 20
+<div class="container">
+        <div class="imgTrial">
+            <img src="./images/image-header-desktop.jpg" type="png" alt="office" class="office">
+        </div>
+</div>
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    color:hsl(0, 0%, 100%);
+}
+
+.container{
+    height: 21em;
+    width: 30%;
+    margin: auto;
+}
+.office {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left:0em;
+    top:-0.3em;
+   
+}
+.imgTrial::after{
+    width: 25em;
+    height:20.7em;
+    content: "Women at work laughing";
+    background-color: hsla(277, 64%, 61%,50%);
+    position: relative;
+    top: -21em;
+    left: 0px;
+    right: 0;
+    bottom: 0px;
+    display: grid;
+    margin: auto;
+    place-items: center;
+}

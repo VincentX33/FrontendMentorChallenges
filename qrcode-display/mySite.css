@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+}
+
+.flexclass {
+    display: flex;
+    justify-content: center  ;
+    align-items: center;
+    width: 99vw;
+    height: 95vh;
+}
+
+.qrcontainer {
+    height:435px;
+    width:300px;
+    background-color: hsl(0, 0%, 100%);
+    padding:20px;
+    padding-top: 10px;
+    border-radius: 5%;
+}
+
+img {
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+h3, p {
+    margin:auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+p {
+    color :hsl(220, 15%, 55%);
+    margin:10px;
+}
