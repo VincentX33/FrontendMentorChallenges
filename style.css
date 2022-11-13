@@ -1,0 +1,24 @@
+.mainHeader {
+  font-family:'Pacifico', cursive;
+  font-size: 4rem;
+  
+}
+body{
+  margin:0;
+  background: linear-gradient(82deg, rgba(10,204,206,1) 16%, rgba(123,55,172,1) 48%, rgba(131,97,24,1) 100%); 
+  width: 100vw;
+  font-size:16px;
+}
+.linkLabel{
+  padding:5px 20px;
+  margin:10px 10px;
+  border-style:groove;
+  border-width: 5px 2px;
+  border-color:darkblue;
+  font-family: monospace;
+  font-size:1.2rem;
+  width: 30rem;
+}
+.linkLabel a{
+  margin:0 10px;
+}
